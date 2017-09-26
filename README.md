@@ -1,5 +1,5 @@
 ### What's happened to the repo?
-Osprey has be switched to a new maintainer
+Osprey has been switched to a new maintainer
 
 # osprey - a stylish fork
 
