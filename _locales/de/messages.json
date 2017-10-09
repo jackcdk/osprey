@@ -1,0 +1,419 @@
+{
+	"addStyleLabel": {
+		"message": "Schreibe neuen Style",
+		"description": "Label for the button to go to the add style page"
+	},
+	"addStyleTitle": {
+		"message": "Style hinzufügen",
+		"description": "Title of the page for adding styles"
+	},
+	"appliesAdd": {
+		"message": "Hinzufügen",
+		"description": "Label for the button to add an 'applies' entry"
+	},
+	"appliesDisplay": {
+		"message": "Gilt für: $applies$",
+		"description": "Text on the manage screen to describe what the style applies to",
+		"placeholders": {
+			"applies": {
+				"content": "$1"
+			}
+		}
+	},
+	"appliesDisplayTruncatedSuffix": {
+		"message": "und mehr",
+		"description": "Text added to appliesDisplay when there are more sites for the style than are displayed"
+	},
+	"appliesDomainOption": {
+		"message": "URLs auf der Domäne",
+		"description": "Option to make the style apply to the entered string as a domain"
+	},
+	"appliesHelp": {
+		"message": "Das 'Gilt für' Element gibt an, auf welche URL sich dieser Code Abschnitt einschränkt.",
+		"description": "Help text for 'applies to' section"
+	},
+	"appliesLabel": {
+		"message": "Gilt für",
+		"description": "Label for 'applies to' fields on the edit\/add screen"
+	},
+	"appliesRegexpOption": {
+		"message": "URLs übereinstimmend mit der regexp",
+		"description": "Option to make the style apply to the entered string as a regular expression"
+	},
+	"appliesRemove": {
+		"message": "Entfernen",
+		"description": "Label for the button to remove an 'applies' entry"
+	},
+	"appliesSpecify": {
+		"message": "Fixieren",
+		"description": "Label for the button to make a style apply only to specific sites"
+	},
+	"appliesToEverything": {
+		"message": "Alles",
+		"description": "Text displayed for styles that apply to all sites"
+	},
+	"appliesUrlOption": {
+		"message": "URL",
+		"description": "Option to make the style apply to the entered string as a URL"
+	},
+	"appliesUrlPrefixOption": {
+		"message": "URLs beginnend mit",
+		"description": "Option to make the style apply to the entered string as a URL prefix"
+	},
+	"applyAllUpdates": {
+		"message": "Alle Aktualisierungen übernehmen",
+		"description": "Label for the button to apply all detected updates"
+	},
+	"checkAllUpdates": {
+		"message": "Alle Styles auf Aktualisierungen prüfen",
+		"description": "Label for the button to check all styles for updates"
+	},
+	"checkForUpdate": {
+		"message": "Auf Aktualisierungen prüfen",
+		"description": "Label for the button to check a single style for an update"
+	},
+	"checkingForUpdate": {
+		"message": "Überprüfung...",
+		"description": "Text to display when checking a style for an update"
+	},
+	"cm_indentWithTabs": {
+		"message": "Benutze Tabs mit intelligenter Einrückung",
+		"description": "Label for the checkbox controlling tabs with smart indentation option for the style editor."
+	},
+	"cm_keyMap": {
+		"message": "Keymap",
+		"description": "Label for the drop-down list controlling the keymap for the style editor."
+	},
+	"cm_lineWrapping": {
+		"message": "Wort wrap",
+		"description": "Label for the checkbox controlling word wrap option for the style editor."
+	},
+	"cm_smartIndent": {
+		"message": "Benutze intelligente Einrückung",
+		"description": "Label for the checkbox controlling smart indentation option for the style editor."
+	},
+	"cm_tabSize": {
+		"message": "Tab Größe",
+		"description": "Label for the text box controlling tab size option for the style editor."
+	},
+	"cm_theme": {
+		"message": "Theme",
+		"description": "Label for the style editor's CSS theme."
+	},
+	"confirmNo": {
+		"message": "Nein",
+		"description": "'No' button in a confirm dialog"
+	},
+	"confirmStop": {
+		"message": "Abbrechen",
+		"description": "'Stop' button in a confirm dialog"
+	},
+	"confirmYes": {
+		"message": "Ja",
+		"description": "'Yes' button in a confirm dialog"
+	},
+	"dbError": {
+		"message": "Ein Fehler ist beim lesen der osprey Datenbank aufgetreten. Soll eine Website mit möglichen Lösungen zu dem Problem angezeigt werden?",
+		"description": "Prompt when a DB error is encountered"
+	},
+	"defaultTheme": {
+		"message": "Standard",
+		"description": "Default CodeMirror CSS theme option on the edit style page"
+	},
+	"deleteStyleLabel": {
+		"message": "Löschen",
+		"description": "Label for the button to delete a style"
+	},
+	"deleteStyleConfirm": {
+		"message": "Soll dieser Style wirklich gelöscht werden?",
+		"description": "Confirmation before deleting a style"
+	},
+	"description": {
+        	"message": "Style das Internet nach deinem Geschmack, mit osprey, einem Benutzer-Style manager! Osprey erlaubt es Styles, Themes und Skins für viele populäre Seiten einfach zu installieren",
+		"description": "Extension description"
+	},
+	"disableAllStyles": {
+		"message": "Alle Styles deaktivieren",
+		"description": "Label for the checkbox that turns all enabled styles off."
+	},
+	"disableStyleLabel": {
+		"message": "Deaktivieren",
+		"description": "Label for the button to disable a style"
+	},
+	"editGotoLine": {
+		"message": "Gehe zu Zeile (oder line:col)",
+		"description": "Go to line or line:column on Ctrl-G in style code editor"
+	},
+	"editStyleHeading": {
+		"message": "Style editieren",
+		"description": "Title of the page for editing styles"
+	},
+	"editStyleLabel": {
+		"message": "Editieren",
+		"description": "Label for the button to go to the edit style page"
+	},
+	"editStyleTitle": {
+		"message": "Editiere Style $stylename$",
+		"description": "Title of the page for editing styles",
+		"placeholders": {
+			"stylename": {
+				"content": "$1"
+			}
+		}
+	},
+	"enableStyleLabel": {
+		"message": "Aktivieren",
+		"description": "Label for the button to enable a style"
+	},
+	"exportLabel": {
+		"message": "Exportieren",
+		"description": "Label for the button to export a style ('edit' page) or all styles ('manage' page)"
+	},
+	"findStylesForSite": {
+		"message": "Suche mehrere Themes und Styles für diese Seite.",
+		"description": "Text for a link that gets a list of styles for the current site"
+	},
+	"helpAlt": {
+		"message": "Hilfe",
+		"description": "Alternate text for help buttons"
+	},
+	"helpKeyMapHotkey": {
+		"message": "Drücke hotkey",
+		"description": "Placeholder text of inputbox in keymap help popup on the edit style page. Must be very short"
+	},
+	"helpKeyMapCommand": {
+		"message": "Tippe ein Command",
+		"description": "Placeholder text of inputbox in keymap help popup on the edit style page. Must be very short"
+	},
+	"importLabel": {
+		"message": "Importieren",
+		"description": "Label for the button to import a style ('edit' page) or all styles ('manage' page)"
+	},
+	"importAppendLabel": {
+		"message": "An Style anhängen",
+		"description": "Label for the button to import a style and append to the existing sections"
+	},
+	"importAppendTooltip": {
+		"message": "Füge den importierten Style and den derzeitigen Style",
+		"description": "Tooltip for the button to import a style and append to the existing sections"
+	},
+	"importReplaceLabel": {
+		"message": "Style überschreiben",
+		"description": "Label for the button to import and overwrite current style"
+	},
+	"importReplaceTooltip": {
+		"message": "Verwerfe Inhalt des derzeitigen Styles und überschreibe es mit dem Importierten Style",
+		"description": "Label for the button to import and overwrite current style"
+	},
+	"installUpdate": {
+		"message": "Aktualisierung installieren",
+		"description": "Label for the button to install an update for a single style"
+	},
+	"issues": {
+		"message": "Probleme",
+		"description": "Label for the CSSLint issues block on the style edit page"
+	},
+	"issuesHelp": {
+		"message": "Probleme die von <a href='https:\/\/github.com\/CSSLint\/csslint' target='_blank'>CSSLint<\/a> gefunden wurden mit folgenden aktivierten Regeln:",
+		"description": "Help popup message for the CSSLint issues block on the style edit page"
+	},
+	"manageFilters": {
+		"message": "Filter",
+		"description": "Label for filters container"
+	},
+	"manageHeading": {
+		"message": "Installierte Styles",
+		"description": "Heading for the manage page"
+	},
+	"manageOnlyEnabled": {
+		"message": "Nur aktivierte Styles",
+		"description": "Checkbox to show only enabled styles"
+	},
+	"manageOnlyEdited": {
+		"message": "Nur bearbeitete Styles",
+		"description": "Checkbox to show only locally edited styles"
+	},
+	"manageText": {
+		"message": "Besuchen Sie <a href='http:\/\/userstyles.org'>userstyles.org<\/a> für bereits fertige Styles.",
+		"description": "Help text on the manage page"
+	},
+	"manageTitle": {
+		"message": "osprey",
+		"description": "Title for the manage page"
+	},
+	"menuShowBadge": {
+		"message": "Zeige Anzahl der aktiven Styles",
+		"description": "Label (must be very short) for the checkbox in the toolbar button context menu controlling toolbar badge text."
+	},
+	"noStylesForSite": {
+		"message": "Es sind keine Styles für diese Seite installiert.",
+		"description": "Text displayed when no styles are installed for the current site"
+	},
+	"openManage": {
+		"message": "Installierte Styles verwalten.",
+		"description": "Link to open the manage page."
+	},
+	"optionsHeading": {
+		"message": "Optionen",
+		"description": "Heading for options section on manage page."
+	},
+	"popupStylesFirst": {
+		"message": "Liste die Styles vor Commands im Toolbar-Button Menü",
+		"description": "Label for the checkbox controlling section order in the toolbar button menu."
+	},
+	"prefShowBadge": {
+		"message": "Zeige Anzahl aller aktiven Styles für die derzeitige Website auf dem Toolbar-Button",
+		"description": "Label for the checkbox controlling toolbar badge text."
+	},
+	"replace": {
+		"message": "Ersetzen",
+		"description": "Label before the replace input field in the editor shown on Ctrl-H"
+	},
+	"replaceAll": {
+		"message": "Ersetze alle",
+		"description": "Label before the replace input field in the editor shown on 'replaceAll' hotkey"
+	},
+	"replaceWith": {
+		"message": "Ersetze mit",
+		"description": "Label before the replace-with input field in the editor shown on Ctrl-H etc."
+	},
+	"search": {
+		"message": "Suche",
+		"description": "Label before the search input field in the editor shown on Ctrl-F"
+	},
+	"searchRegexp": {
+		"message": "Benutze /re/ Syntax für Regexp Suche",
+		"description": "Label after the search input field in the editor shown on Ctrl-F"
+	},
+	"searchStyles": {
+		"message": "Suche Inhalte",
+		"description": "Label for the search filter textbox on the Manage styles page"
+	},
+	"sectionAdd": {
+		"message": "Abschnitt hinzufügen",
+		"description": "Label for the button to add a section"
+	},
+	"sectionCode": {
+		"message": "Code",
+		"description": "Label for the code for a section"
+	},
+	"sectionHelp": {
+		"message": "Abschnitte ermöglichen es verschiedene Code Bereiche im selben Style für verschiedene URL Gruppen zu definieren. Zum Beispiel: Ein einzelner Style könnte die Hauptseite einer Website ändern, während es den Rest auf eine andere Weise ändert.",
+		"description": "Help text for sections"
+	},
+	"sectionRemove": {
+		"message": "Entferne Abschnitt",
+		"description": "Label for the button to remove a section"
+	},
+	"styleBadRegexp": {
+		"message": "Regexp ist ungültig.",
+		"description": "Validation message for a bad regexp in a style"
+	},
+	"styleBeautify": {
+		"message": "Beautify (Verschönern)",
+		"description": "Label for the CSS-beautifier button on the edit style page"
+	},
+	"styleCancelEditLabel": {
+		"message": "Zurück zu 'manage'",
+		"description": "Label for cancel button for style editing"
+	},
+	"styleChangesNotSaved": {
+		"message": "Es wurden Änderungen an diesem Style gemacht ohne zu speichern.",
+		"description": "Text for the prompt when changes are made to a style and the user tries to leave without saving"
+	},
+	"styleEnabledLabel": {
+		"message": "Aktiviert",
+		"description": "Label for the enabled state of styles"
+	},
+	"styleInstall": {
+		"message": "'$stylename$' in osprey installieren?",
+		"description": "Confirmation when installing a style",
+		"placeholders": {
+			"stylename": {
+				"content": "$1"
+			}
+		}
+	},
+	"styleMissingName": {
+		"message": "Bitte Namen eingeben.",
+		"description": "Error displayed when user saves without providing a name"
+	},
+	"styleSaveLabel": {
+		"message": "Speichern",
+		"description": "Label for save button for style editing"
+	},
+	"styleSectionsTitle": {
+		"message": "Abschnitte",
+		"description": "Title for the style sections section"
+	},
+	"styleMozillaFormatHeading": {
+		"message": "Mozilla-Format",
+		"description": "Heading for the section with buttons to import/export Mozilla format of the style"
+	},
+	"styleFromMozillaFormatPrompt": {
+		"message": "Füge den Mozilla-Format Code ein",
+		"description": "Prompt in the dialog displayed after clicking 'Import from Mozilla format' button"
+	},
+	"styleToMozillaFormatTitle": {
+		"message": "Style im Mozilla-Format",
+		"description": "Title of the popup with the style code in Mozilla format, shown after pressing the Export button on Edit style page"
+	},
+	"styleToMozillaFormatHelp": {
+		"message": "Das Mozilla-Format des codes kann mit Stylish für Firefox verwendet und auf userstyles.org veröffentlicht werden.",
+		"description": "Help info for the Mozilla format header section that converts the code to/from Mozilla format"
+	},
+	"styleUpdate": {
+		"message": "Soll Style '$stylename$' wirklich aktualisiert werden?",
+		"description": "Confirmation when updating a style",
+		"placeholders": {
+			"stylename": {
+				"content": "$1"
+			}
+		}
+	},
+	"stylishUnavailableForURL": {
+		"message": "(osprey funktioniert auf Seiten wie dieser nicht.)",
+		"description": "Note in the toolbar pop-up when on a URL osprey can't affect"
+	},
+	"undo": {
+		"message": "Rückgängig",
+		"description": "Button label"
+	},
+	"undoGlobal": {
+		"message": "Rückgängig (Global)",
+		"description": "CSS-beautify global Undo button label"
+	},
+	"updateCheckFailBadResponseCode": {
+		"message": "Aktualisierung fehlgeschlagen - Server hat mit Code $code$ geantwortet.",
+		"description": "Text that displays when an update check failed because the response code indicates an error",
+		"placeholders": {
+			"code": {
+				"content": "$1"
+			}
+		}
+	},
+	"updateCheckFailServerUnreachable": {
+		"message": "Aktualisierung fehlgeschlagen - Server nicht ereichbar.",
+		"description": "Text that displays when an update check failed because the update server is unreachable"
+	},
+	"updateCheckSucceededNoUpdate": {
+		"message": "Style ist auf dem neusten Stand.",
+		"description": "Text that displays when an update check completed and no update is available"
+	},
+	"updateAllCheckSucceededNoUpdate": {
+		"message": "Alle Styles sind auf dem neusten Stand.",
+		"description": "Text that displays when an update all check completed and no updates are available"
+	},
+	"updateCompleted": {
+		"message": "Aktualisierung abgeschlossen.",
+		"description": "Text that displays when an update completed"
+	},
+	"writeStyleFor": {
+		"message": "Schreibe Style für: ",
+		"description": "Label for toolbar pop-up that precedes the links to write a new style"
+	},
+	"writeStyleForURL": {
+		"message": "!",
+		"description": "Text for link in toolbar pop-up to write a new style for the current URL"
+	}
+}
