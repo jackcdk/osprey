@@ -1,3 +1,6 @@
+Why the new repo? this project has been moved.
+
+
 # osprey - a stylish fork
 
 ![osprey](https://raw.githubusercontent.com/JackCDK/osprey/master/128.png)
